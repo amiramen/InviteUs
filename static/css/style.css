@@ -1,0 +1,70 @@
+/** Index page **/
+
+
+#navbar{
+	background-color: rgba(255,255,255,0.8);/* #77BAFF;*/
+	
+}
+
+#navbar .collapse.navbar-collapse {
+	float: right;
+}
+#navbar .navbar-brand {
+	color:black;
+	font-weight: bold;
+}
+
+#navbar > .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
+	color: black;
+	font-weight: bold;
+}
+
+
+html{
+	background: url('../img/index_bg.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+
+
+/** Login amd calendar styles **/
+
+.calendar{
+max-width: 500px;
+}
+.calendar_day{
+ /* will set the text as un-selectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#logged_in_msg{
+max-width: 500px;
+max-height: 20px;
+}
+
+#please_login_msg{
+max-width: 200px;
+}
+
+.my_calendar{
+	
+}
+td.selected{
+	background-color: #A7A7F9 !important;
+}
+td.free_day{
+	background-color: #76D276;
+}
+td.occupied{
+	background-color: #FF8D8D;
+}
